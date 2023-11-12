@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Encuesta de Satisfacción</title>
+</head>
+<body>
+
+   <header class="header"> 
+    <div class="container-header">
+    <h1>FEROYAL</h1>
+</div>
+<nav class="menu">
+<a class="link" href="file:///D:/archivos/ESCUELA/Creacion%20de%20portales%20Web/Mipagina.html">Inicio</a>
+<a class="link" href="file:///D:/archivos/ESCUELA/Creacion%20de%20portales%20Web/Catalogo.html">Catalogo</a>
+<a class="link" href="file:///D:/archivos/ESCUELA/Creacion%20de%20portales%20Web/Accesorios.html">Accesorios</a>
+</nav>
+   </header>
+   <form action="#" method="post">
+    <div class="forms-grupos">
+        <label><b>Name</b></label>
+        <input type="text" name="name-label" id="nombre" placeholder="Ingrese su Nombre" required>
+    </div>
+
+    <div class="forms-grupos">
+        <label><b>Email</b></label>
+        <input type="email" name="email-label" id="mail" placeholder="Ingrese su Correos" required>
+    </div>
+
+    <div class="forms-grupos">
+        <label><b>Edad</b></label>
+        <input type="number" name="number" id="edad" placeholder="Ingrese su Edad" required min="20" max="99">
+    </div>
+
+    <div class="forms-grupos">
+        <p><b>¿QUE TIPO DE AUTOS LE GUSTAN MAS</b></p>
+
+        <label>
+            <select name="usuario-option" id="select" class="selectOp">
+                <option disabled selected value>selecciona una opcion</option>
+                <option value="Estudi">Deportivos</option>
+                <option value="Proe">Camionetas</option>
+                <option value="Trab">Estandar</option>
+                <option value="Empre">Coupe</option>
+            </select>
+        </label>
+    </div>
+
+    <div class="forms-grupos">
+        <p><b>¿Le gustaron los autos?</b></p>
+
+
+        <label>
+            <input type="radio" name="opcion-user" id="definitivamente">
+            <b>Si</b>
+        </label>
+        <label>
+            <input type="radio" name="opcion-user" id="Probablemente">
+            <b>Algunos</b>
+        </label>
+        <label>
+            <input type="radio" name="opcion-user" id="No creo">
+            <b>No</b>
+        </label>
+    </div>
+
+    <div class="forms-grupos">
+        <p><b>¿Cual fue el modelo que mas le gusto?</b></p>
+
+        <select name="lenguaje-op" id="lenguaje" class="selectOp">
+            <option  disabled selected value>Selecciona una opcion</option>
+            <option value="C">Feroyal Inferno</option>
+            <option value="D">Feroyal Glandeour</option>
+            <option value="E">Feroyal Blaze</option>
+            <option value="F">Feroyal Legacy</option>
+            <option value="F">Feroyal Pioneer</option>
+            <option value="F">Feroyal Expedition</option>
+            <option value="F">Feroyal Raptor</option>
+            <option value="F">Feroyal Echelon Supreme</option>
+        </select>
+    </div>
+
+    <div class="forms-grupos">
+        <p><b>¿Que otros tipos de autos le gustan?</b></p>
+
+        <label>
+            <input type="checkbox" name="front-end" id="seleccion-user">
+            <b>Deportivos</b>
+        </label>
+        <label>
+            <input type="checkbox" name="back-end" id="seleccion-user">
+            <b>Camionetas</b>
+        </label>
+        <label>
+            <input type="checkbox" name="full-stack" id="seleccion-user">
+            <b>Estandar</b>
+        </label>
+        <label>
+            <input type="checkbox" name="Coupe" id="seleccion-user">
+            <b>Coupe</b>
+        </label>
+    </div>
+    <div class="forms-grupos">
+        <p><b>Escribe tus comentarios</b></p>
+
+        <label>
+            <input type="text" name="comment" id="comentarios" placeholder="Escribe tu comentario:">
+        </label>
+    </div>
+    <div class="button">
+        <input type="submit" value="Enviar">
+    </div>
+   </form>
+
+   <footer class="footer">
+    <div class="container-fot">
+        <h2>FEROYAL</h2>
+    </div>
+    <div class="footer-cont">
+        <h2>Ferrer Garcia Bryan Uriel</h2>
+    </div>
+   </footer>
+</body>
+</html>
